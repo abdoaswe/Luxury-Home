@@ -1,0 +1,60 @@
+@font-face{
+    src: url('../css/Cairo-Bold.ttf');
+    font-family: 'rabiya';
+}
+body{
+	font-family: 'rabiya';
+	text-align: center;
+	background-color: #111;
+}
+.logo{
+    margin: 50px 0px 30px;
+    border-radius: 15%;
+    border: 1px solid #555;
+    width: 150px;
+}
+h2{
+    margin-bottom: 20px;
+    color: #aaa;
+}
+h4{
+    margin-bottom: 40px;
+    color: #777;
+}
+.btn-block{
+    color: #eee;
+    margin-bottom: 25px;
+}
+.btn-block{
+    font-size: 20px;
+}
+.btn-twitter{
+    background-color: #131418;
+    border: 1px solid #444;
+}
+.btn-twitter:hover{
+    color: #ffffff;
+}
+.btn-instagram{
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+.btn-phone{
+    background-color: #FFFC00;
+    color: #131418;
+}
+.btn-whatsapp{
+    background-color: #aaa;
+     border: 1px solid #444;
+     /* width: max-content; */
+}
+@media (max-width: 767px) {
+    h2{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 12px;
+    }
+    .btn-block{
+        font-size: 12px;
+    }
+}
